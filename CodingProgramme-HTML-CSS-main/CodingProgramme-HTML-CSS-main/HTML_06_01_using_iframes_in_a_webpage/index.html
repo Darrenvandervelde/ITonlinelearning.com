@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Location</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Visit Our Store</h1>
+        <p>Find us at our convenient downtown location</p>
+    </header>
+
+    <main>
+        <section class="location-section">
+            <h2>Our Location</h2>
+            <p>We're located in the heart of the city, easily accessible by public transport.</p>
+            
+            <div class="iframe-container">
+                <iframe 
+                    src="https://www.google.com/maps/embed?pb=YOUR_MAP_EMBED_CODE"
+                    title="Google Maps Location"
+                    loading="lazy"
+                    allowfullscreen=""
+                    referrerpolicy="no-referrer-when-downgrade"
+                    sandbox="allow-scripts allow-same-origin allow-popups">
+                    <p>Your browser does not support iframes. Please visit our <a href="location-link">location page</a>.</p>
+                </iframe>
+            </div>
+
+            <div class="iframe-controls">
+                <button onclick="reloadFrame()">Reload Map</button>
+                <button onclick="toggleFullscreen()">View Fullscreen</button>
+            </div>
+        </section>
+
+        <aside class="location-info">
+            <h3>Store Hours</h3>
+            <ul>
+                <li>Monday - Friday: 9am - 6pm</li>
+                <li>Saturday: 10am - 4pm</li>
+                <li>Sunday: Closed</li>
+            </ul>
+        </aside>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Your Store. All rights reserved.</p>
+    </footer>
+</body>
+</html>
