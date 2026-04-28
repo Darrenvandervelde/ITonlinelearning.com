@@ -1,6 +1,6 @@
 # ITonlinelearning.com
 
-Examples from the ITonlinelearning.com courses I completed.
+<p>Examples from the ITonlinelearning.com courses I completed.</p>
 
 ## Course repositories
 
